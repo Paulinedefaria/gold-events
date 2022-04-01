@@ -1,0 +1,22 @@
+.bouton{
+	text-align: center;
+	margin:  5px;
+	color:  white;
+	padding: 15px;
+	font-weight: bold;
+	width: 25%;
+	background-color: #D7AF7D;
+	border-radius: 20px;
+	opacity : 0.9;
+	text-decoration: none;
+
+}
+
+
+.bouton:hover{
+	background-color: whitesmoke;
+	transition: 1s;
+	color : #D7AF7D;
+	text-decoration: none;
+
+}

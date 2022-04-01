@@ -1,0 +1,32 @@
+.topnav {
+  positon: fixed;
+  background-color: #D7AF7D;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: #D7AF7D;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

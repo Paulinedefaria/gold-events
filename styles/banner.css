@@ -1,0 +1,60 @@
+.banner{
+	height: 100vh;
+	color: whitesmoke;
+	background-image: url('../images/image-header.jpg');
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
+	text-align: center;
+	opacity: 0.9;
+
+}
+
+.banner h1, .banner h2, .banner a{
+	text-shadow: 1px 1px 1px black;
+	text-align: bottom;
+	margin: 15px;
+
+}
+
+.banner-fixed{
+	height: 35vh;
+	background-image: url("../images/fond-or.jpeg");
+	margin: 48px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo {
+	height: 150px;
+
+}
+
+.bouton{
+	.bouton
+	text-align: center;
+	margin:  2px;
+	color:  #D7AF7D;
+	padding: 5px;
+	background-color: #D7AF7D;
+	border-radius: 5px;
+}
+
+
+.bouton:hover{
+	background-color: black;
+	transition: 0,5s;
+	color: black;
+
+}
+
+</a>
+@media (moin-width: 576px) {
+	.banner{
+		background-position: center;
+	}
+}

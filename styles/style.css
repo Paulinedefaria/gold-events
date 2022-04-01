@@ -1,0 +1,187 @@
+@import url('banner.css');
+@import url('cards.css');
+@import url('boutons.css');
+@import url('formulaire.css');
+@import url('nav.css');
+@import url('footer.css');
+@import url('slider.css');
+
+}
+
+
+/*General*/
+
+h2{
+	color: whitesmoke;
+
+}	
+
+h3{
+
+	color: #D7AF7D;
+}
+
+
+p{
+	margin: 15px;
+	line-height: 2em;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*Body*/
+
+body{
+	margin:  0;
+}
+
+}	
+
+
+a{
+	text-decoration: none; 
+
+}	
+
+
+/*Strates*/
+
+.container{
+	width: 90%;
+	margin: 15px;
+	padding: 30px;
+
+}
+
+.container1{
+	width: 90%;
+	margin: 15px;
+	padding: 20px;
+}
+
+
+
+.metier h2{
+	text-align: center;
+}
+
+.metier h3{
+	color: #D7AF7D ;
+}
+
+
+.logos{
+	max-height: 25px;
+
+}
+
+.strat {
+	background-color: #D7AF7D;
+	opacity: 0.8;
+	color: white;
+	magin: 0;
+	padding: 20px
+}
+
+.strate{
+	background-image: url('../images/image-work.jpg');
+	height: 70vh;
+	background-size: cover;
+	object-fit: cover;
+	margin: 0;
+}
+
+
+.last{
+	background-color: whitesmoke;
+	height: 230px;
+	padding: 50px 5px 5px 5px;
+
+}
+
+.strates h2, h3 {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+
+
+
+/*Footer*/
+
+.footer{
+	color: white;
+	background-color: #D7AF7D;
+	font-size: x-small;
+	margin: 0;
+}
+
+
+
+
+
+/*Scroll*/
+
+#scroll-up{
+	position: fixed;
+	bottom : 10px;
+	right: 24px;
+	opacity: 0.5;}
+
+#scroll-up img {
+	height: 100px;
+	}
+
+
+/*Icons*/
+
+.icons i{
+	font-size: 64px;
+	color: darkgray;
+	justify-self: center ;
+}
+
+.icons{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+
+/*Responsive*/
+
+@media (min-width: 576px) { 
+	.icons {
+		grid-template-columns: 1fr 1fr;
+	}
+
+@media (min-width: 768px) { 
+	.icons {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+@media (min-width: 992px) {
+	.icons{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	}
+	}
+
+@media (min-width: 1200px) { 
+	.icons{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	}
+
+/*@media (min-width: 1400px) { ...}
+
